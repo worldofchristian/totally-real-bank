@@ -15,8 +15,7 @@
 }
 
 /* 
-was having trouble centering the form and keeping the top margin, 
-so I just put an empty div above the form with a height of 10vh
+this empty div is acting as a 10vh margin-top 
 */
 
 .bigbox {
@@ -110,3 +109,7 @@ form input {
         width: 100%;
     }
 }
+
+/* 
+changes a few settings for mobile users 
+*/
