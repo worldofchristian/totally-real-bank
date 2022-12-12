@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 10vh;
+}
+
+/* 
+was having trouble centering the form and keeping the top margin, 
+so I just put an empty div above the form with a height of 10vh
+*/
+
+.bigbox {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 2px #DDD;
+    overflow: hidden;
+
+}
+
+.button-area {
+    padding-left: 2rem;
+}
+
+.button-area a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+button {
+    background-color: #596D48;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.form-container {
+    background-color: #FFF;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.form-container p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.form-cell {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 33%;
+}
+
+.form-cell label {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+form input {
+    border: 1px solid #D6D9DC;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+}
