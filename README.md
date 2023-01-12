@@ -1,5 +1,3 @@
-totally-real-bank
-
 css sign-up form for the odin project
 
 live site: https://worldofchristian.github.io/totally-real-bank/
